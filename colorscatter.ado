@@ -24,10 +24,10 @@ program define colorscatter
 		local symbol_opacity  100
 	}
 	if "`rgb_low'"=="" {
-		local rgb_low  0 0 255
+		local rgb_low  255 0 0  // 0 0 255
 	}
 	if "`rgb_high'"=="" {
-		local rgb_high 255 0 0
+		local rgb_high 0 255 0  // 255 0 0
 	}
 	local rl1 : word 1 of `rgb_high'
 	local rl2 : word 2 of `rgb_high'
