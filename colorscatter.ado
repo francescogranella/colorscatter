@@ -3,7 +3,7 @@
 * v1.0.3 added option to add other twoway plots
 * v1.0.2 bugfix
 * v1.0.1 the symbol_opacity() option was added
-ssc install blindschemes
+ssc install blindschemes, replace
 set scheme plotplain
 cap program drop colorscatter
 program define colorscatter
